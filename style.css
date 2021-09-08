@@ -60,19 +60,30 @@ h2 {
   align-items: flex-start;
 }
 
-/* .gender div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .form-control input {
   border: 2px solid #f0f0f0;
   border-radius: 4px;
   display: block;
-  width: 100%;
   padding: 10px;
   font-size: 14px;
+}
+
+.form-control .width {
+  width: 100%;
+}
+
+.gender div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.gender div .radio {
+  width: 13px;
+  height: 13px;
+  margin-left: 30px;
+  margin-bottom: 5px;
 }
 
 .form-control input:focus {
